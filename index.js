@@ -17,11 +17,10 @@ app.use(fileUpload({
   }));
 
 app.use('/api/v1',route)
-MONGO_URL = 'mongodb+srv://priyanshu07804:1234@blog.4olgs9h.mongodb.net/POSTS?retryWrites=true&w=majority'
 
 const main = async()=>{
     try {
-        await connectDB(MONGO_URL)
+        await connectDB(process.env.MONGO_URL)
         app.listen(8000,()=>{
             console.log("listen on 5000")
         })
