@@ -9,7 +9,9 @@ const {connectDB} = require('./db/connectDB')
 
 const app = express()
 
-app.use(cors())
+app.use(cors({
+  origin: 'http://localhost:3000', // Replace this with the origin of your frontend
+}))
 app.use(express.json())
 app.use(fileUpload({
     useTempFiles: true,
