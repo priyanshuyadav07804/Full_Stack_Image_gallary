@@ -16,6 +16,23 @@ ON CLICK OF TITLE OF IMAGE -
 
 ![alt text](https://github.com/priyanshuyadav07804/Image_gallary_backend/assets/80442935/efa0759b-4ab9-49ec-9f74-07c1163eaafc)
 
+ON CLICK OF EDIT BUTTON
+
+![alt text](https://github.com/priyanshuyadav07804/Image_gallary_backend/assets/80442935/fda975e8-2d62-40ad-a1a4-6b68f487ded4)
+
+ON BEING SUCCESSFULLY UPDATED
+
+![alt text](https://github.com/priyanshuyadav07804/Image_gallary_backend/assets/80442935/3f705203-2fda-4bca-847f-8175305c259c)
+
+ON CLICK OF DELETE BUTTON
+
+![alt text](https://github.com/priyanshuyadav07804/Image_gallary_backend/assets/80442935/d0498a90-cc0b-4896-ba00-a432424ed5de)
+
+
+
+
+
+
 
 
 
