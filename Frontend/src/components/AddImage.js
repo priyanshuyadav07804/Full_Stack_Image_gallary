@@ -48,6 +48,7 @@ const AddImage = () => {
         // navigate('/');
       } catch (error) {
         console.error('Error uploading image:', error);
+        setStatusMsg("Something Went Wrong")
       }
     } else {
       alert('Please enter all values');
@@ -57,13 +58,12 @@ const AddImage = () => {
   return (
     <div className="form-window">
       <h1>Add Image</h1>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="form">
         <input
           type="text"
           name="title"
           placeholder="Enter Title"
           className="input"
-          value={title}
           onChange={(e) => setTitle(e.target.value)}
         />
         <div className="brake">
@@ -72,7 +72,7 @@ const AddImage = () => {
             name="desc"
             placeholder="Enter Desc"
             rows={8}
-            value={desc}
+            cols={40}
             onChange={(e) => setDesc(e.target.value)}
           />
           <input

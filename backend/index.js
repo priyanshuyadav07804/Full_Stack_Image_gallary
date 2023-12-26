@@ -3,15 +3,14 @@ const cors = require('cors')
 require('dotenv').config();
 const fileUpload = require('express-fileupload');
 
-
 const route = require('./routes/route')
 const {connectDB} = require('./db/connectDB')
 
 const app = express()
 
 app.use(cors({
-  origin: 'http://localhost:3000', // Replace this with the origin of your frontend
-}))
+    origin: '*', // Replace this with the origin of your frontend
+  }))
 app.use(express.json())
 app.use(fileUpload({
     useTempFiles: true,
